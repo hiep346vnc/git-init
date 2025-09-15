@@ -1,2 +1,1 @@
-echo "Hello 1" > test.txt
-git add test.txt
+git commit -m "commit 1: tạo file test.txt"
