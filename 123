@@ -1,3 +1,6 @@
-git branch -M main
-git remote add origin https://github.com/username/repo.git
-git push -u origin main
+for i in {1..10}
+do
+  echo "Hello $i" >> test.txt
+  git add test.txt
+  git commit -m "commit $i: thêm Hello $i"
+done
